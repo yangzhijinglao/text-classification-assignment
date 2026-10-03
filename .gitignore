@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境
+venv/
+renwu1/
+.venv/
+env/
+
+# 输出与模型
+outputs/
+*.model
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# 数据与词向量（太大，不提交）
+data/
+*.csv
+glove.6B.100d.txt
+
+# HuggingFace 缓存
+.cache/
+.huggingface/
+
+# VSCode
+.vscode/
+.idea/
