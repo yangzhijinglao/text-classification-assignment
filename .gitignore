@@ -11,8 +11,9 @@ renwu1/
 env/
 
 # 输出与模型
-outputs/
-*.model
+outputs/*.model
+outputs/bert/
+outputs/logs/
 *.safetensors
 *.bin
 *.pt
